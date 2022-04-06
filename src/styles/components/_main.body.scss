@@ -1,0 +1,187 @@
+.main-body {
+    .body-top {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        max-width: 1440px;
+        img {
+            width: 90vw;
+            max-width: 720px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 36px auto 45px;
+            max-width: 734px;
+        }
+        p {
+            margin: auto;
+            font-size: 20px;
+            width: 90%;
+            max-width: 590px;
+        }
+        button {
+            width: 280px;
+            height: 56px;
+            margin-top: 42px;
+        }
+    }
+    .bgc-container {
+        background-color: $clr2;
+        .body-middle {
+            margin-top: 158px;
+            .app-options {
+                position: relative;
+
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                width: 90%;
+                gap: 40px;
+
+                .curvy-bg {
+                    position: absolute;
+                    width: 100vw;
+                    top: 0;
+                    left: 50%;
+                    z-index: -1;
+                    transform: translate(-50%, -99%);
+                }
+                .option {
+                    width: 384px;
+                    flex-basis: 45%;
+                    p {
+                        width: 70%;
+                        margin: auto;
+                    }
+                }
+            }
+            .stay-productive {
+                margin: 143px auto 0;
+                display: flex;
+                justify-content: center;
+                gap: 57px;
+                max-width: 1440px;
+                img {
+                    width: 90vw;
+                    max-width: 614px;
+                }
+                .stay-productive-desc {
+                    margin: 115px 0 0;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    flex-basis: 40%;
+                    h2 {
+                        font-size: 40px;
+                        width: 100%;
+                    }
+                    p {
+                        font-size: 1.14rem;
+                        width: 90%;
+                    }
+                    span {
+                        border-bottom: 1px solid #62e0d9;
+                        width: fit-content;
+                        padding: 32px 7px 7px 0;
+                        a {
+                            color: #62e0d9;
+                        }
+                        img {
+                            width: 14px;
+                            transform: translate(6px, 8px);
+                        }
+                    }
+                }
+            }
+        }
+        .body-bottom {
+            position: relative;
+            height: 307px;
+            padding-top: 179px;
+            padding-bottom: 360px;
+            background-color: $clr2;
+
+            .quotes {
+                position: absolute;
+                left: 24px;
+                top: -49px;
+            }
+
+            .reviews {
+                position: relative;
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 10px;
+                .review {
+                    padding: 40px 25px;
+                    background-color: #202a3c;
+                    width: 75vw;
+                    max-width: 360px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    a {
+                        display: flex;
+                        gap: 10px;
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 50%;
+                        }
+                        .reviewer-details {
+                            text-align: left;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            h4 {
+                                font-size: 10px;
+                            }
+                            span {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .get-early-access {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                background-color: #1b2330;
+                width: 863px;
+                margin: auto;
+                padding: 30px 0;
+                box-shadow: 4px 4px 8px 0px #000;
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                transform: translate(-50%, 40%);
+                p {
+                    margin: auto;
+                    width: 80%;
+                }
+                .call-to-action {
+                    display: flex;
+                    justify-content: space-around;
+                    input {
+                        width: 480px;
+                        padding: 18px 0 18px 38px;
+                        border-radius: 2rem;
+                        border: none;
+                    }
+                    button {
+                        width: 200px;
+                        padding: 15px 26px;
+                    }
+                }
+            }
+        }
+    }
+}

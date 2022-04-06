@@ -1,0 +1,46 @@
+html {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-family: Opensans-400;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $clr1;
+    overflow-x: hidden;
+}
+
+// .curvy-bg {
+//     position: absolute;
+//     width: 100vw;
+//     top: 500px;
+//     left: 0;
+//     z-index: -1;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway-700;
+}

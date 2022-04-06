@@ -1,0 +1,21 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 73px 80px;
+    margin: auto;
+    background-color: $clr1;
+    .main-logo {
+        img {
+            width: 176px;
+        }
+    }
+
+    ul {
+        font-family: Raleway-400;
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+        gap: 56px;
+    }
+}

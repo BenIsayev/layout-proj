@@ -1,0 +1,98 @@
+@media (max-width: 1450px) {
+    .main-footer {
+        position: unset;
+        width: 100%;
+    }
+}
+@media (max-width: 1250px) {
+    .main-body {
+        .body-middle {
+            .stay-productive {
+                flex-direction: column;
+                width: fit-content;
+                margin: auto;
+                align-items: center;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .main-footer {
+        .footer-container {
+            .footer-nav {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 910px) {
+    .main-body {
+        .bgc-container {
+            .body-middle {
+                .app-options {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            .body-bottom {
+                padding-bottom: 660px;
+                .get-early-access {
+                    width: 90vw;
+                    max-width: 360px;
+                    .call-to-action {
+                        flex-direction: column;
+                        gap: 20px;
+                        width: 100%;
+                        align-items: center;
+                        input {
+                            width: 77%;
+                            padding: 18px 0 18px 38px;
+                            border-radius: 2rem;
+                            border: none;
+                        }
+                        button {
+                            width: 90%;
+                            padding: 18px 0 18px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 910px) {
+    .main-header {
+        padding: 73px 30px;
+        .main-logo {
+            img {
+                width: 80px;
+            }
+        }
+        ul {
+            gap: 24px;
+            font-size: 12px;
+        }
+    }
+
+    .main-body {
+        .body-middle {
+            .app-options {
+                .option {
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+    .main-footer {
+        .footer-container {
+            padding-bottom: 40px;
+            .footer-nav .social {
+                align-self: center;
+            }
+        }
+    }
+}
